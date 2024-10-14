@@ -1,7 +1,7 @@
-# American Sign Language (ASL) Recognition Model
+# American Sign Language (ASL)  Alphabet Recognition Model
 
 ## Project Overview
-Welcome to the ASL Recognition Model! This project is a culmination of my exploration into computer vision and deep learning, focused on creating a model capable of interpreting American Sign Language gestures. My aim was not just to build a functional model but to contribute to the accessibility of communication for the deaf and hard-of-hearing community.
+Welcome to the ASL Recognition Model! This project showcases my exploration into computer vision and deep learning, where I aimed to create a model capable of recognizing American Sign Language (ASL) gestures. The intention behind this project is to contribute to the accessibility of communication for the deaf and hard-of-hearing community.
 
 Throughout this project, I learned valuable skills in data collection, model training, and real-time video processing, and I found it to be a fulfilling experience that enhanced my understanding of machine learning principles.
 
@@ -33,7 +33,7 @@ The backbone of the model is **ResNet18**, a well-regarded architecture in image
 - **Custom Data Loader:** I designed a custom data loader that can handle both static images and video data seamlessly, which was essential for training.
 
 ## Evaluation
-I evaluated the model using a combination of static image datasets and video datasets, calculating accuracy metrics to assess performance. I also performed error analysis, particularly focusing on the letters 'J' and 'Z', which posed challenges for the model.
+The model was evaluated using both static image datasets and dynamic gesture video datasets. I used accuracy metrics to measure performance and performed error analysis, especially focusing on tricky letters like 'J' and 'Z', which involve motion and were harder for the model to classify correctly.
 
 ## Real-time Testing
 To test the model’s capabilities in real-world scenarios, I developed a script that processes pre-recorded videos. During testing, predictions are displayed in real-time with an overlay that indicates the recognized letter and its confidence score. Observing the model in action was incredibly rewarding.
